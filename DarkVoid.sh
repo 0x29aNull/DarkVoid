@@ -1,16 +1,16 @@
 #!/bin/bash
-echo                                                          ,,        ,,
-echo `7MM"""Yb.                   `7MM   `7MMF'   `7MF'       db      `7MM
-echo   MM    `Yb.                   MM     `MA     ,V                   MM
-echo   MM     `Mb  ,6"Yb.  `7Mb,od8 MM  ,MP'VM:   ,V ,pW"Wq.`7MM   ,M""bMM
-echo   MM      MM 8)   MM    MM' "' MM ;Y    MM.  M'6W'   `Wb MM ,AP    MM
-echo   MM     ,MP  ,pm9MM    MM     MM;Mm    `MM A' 8M     M8 MM 8MI    MM
-echo   MM    ,dP' 8M   MM    MM     MM `Mb.   :MM;  YA.   ,A9 MM `Mb    MM
-echo .JMMmmmdP'   `Moo9^Yo..JMML. .JMML. YA.   VF    `Ybmd9'.JMML.`Wbmd"MML.
-echo -----------------------------------------------------------------------
-echo                           0x29a@null.net
-echo                ...Distro fragmentation is for chumps...
-echo
+echo "                                                         ,,        ,,"
+echo "`7MM"""Yb.                   `7MM   `7MMF'   `7MF'       db      `7MM"
+echo "  MM    `Yb.                   MM     `MA     ,V                   MM"
+echo "  MM     `Mb  ,6"Yb.  `7Mb,od8 MM  ,MP'VM:   ,V ,pW"Wq.`7MM   ,M""bMM"
+echo "  MM      MM 8)   MM    MM' "' MM ;Y    MM.  M'6W'   `Wb MM ,AP    MM"
+echo "  MM     ,MP  ,pm9MM    MM     MM;Mm    `MM A' 8M     M8 MM 8MI    MM"
+echo "  MM    ,dP' 8M   MM    MM     MM `Mb.   :MM;  YA.   ,A9 MM `Mb    MM"
+echo ".JMMmmmdP'   `Moo9^Yo..JMML. .JMML. YA.   VF    `Ybmd9'.JMML.`Wbmd"MML."
+echo "-----------------------------------------------------------------------"
+echo "                          0x29a@null.net                               "
+echo "               ...Distro fragmentation is for chumps...                "
+echo "                                                                       "
 
 if [[ $EUID -ne 0 ]]; then
   echo "DarkVoid must be ran as root!"
@@ -18,7 +18,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 xbps-install -S postgresql postgresql-client ruby ruby-devel \
-ruby-multi_xml zlib zlib-devel libpqxx-devel postgresql-libs-devel \
+ruby-multi_xml zlib-devel libpqxx-devel postgresql-libs-devel \
 libpcap-devel sqlite-devel apr apr-devel apr-util libuuid-devel \
 readline libsvn libressl-devel libxslt-devel libyaml-devel \
 libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel \
@@ -47,9 +47,11 @@ mkdir /opt/nikto
 cp -r ~/nikto/program/* /opt/nikto
 ln -s /opt/nikto/nikto.pl /usr/bin/nikto
 
-***wordlists***
+# Wordlists Download
 mkdir /usr/share/wordlists
+cd ~/tmp
 git clone https://github.com/danielmiessler/SecLists
+
 
 # Cewl Install
 cd ~/tmp
