@@ -1,20 +1,23 @@
 #!/bin/bash
 
+dvdeps() {
+	printf "\n[-] Installing Dependencies\n"
+	xbps-install -Syu base-devel postgresql postgresql-client ruby-devel \
+	ruby-multi_xml zlib-devel libpqxx-devel postgresql-libs-devel \
+	libpcap-devel sqlite-devel apr apr-devel apr-util libuuid-devel \
+	readline libsvn libressl-devel libxslt-devel libyaml-devel \
+	libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel \
+	db-devel libnet-devel glib-devel bettercap nmap arpfox dnsmasq \
+	gnupg proxychains-ng openjdk-jre sqlmap termshark openvpn \
+	openconnect aircrack-ng john reaver hxctools hashcat \
+	hashcat-utils python3-devel python3-pip ettercap thc-hydra \
+	kismet rust cargo gobuster wfuzz 2>&1 | awk 'BEGIN {ORS=" "} {if(NR%500==0) print "+"}'
+}
+
 mainmsf() {
 	URL=https://github.com/rapid7/metasploit-framework/archive/master.zip
 	TMP=/tmp/DarkVoid
 	MSFDIR=/opt/metasploit-framework/
-  printf "\n[-] Installing Dependencies\n"
-  xbps-install -Syu base-devel postgresql postgresql-client ruby-devel \
-  ruby-multi_xml zlib-devel libpqxx-devel postgresql-libs-devel \
-  libpcap-devel sqlite-devel apr apr-devel apr-util libuuid-devel \
-  readline libsvn libressl-devel libxslt-devel libyaml-devel \
-  libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel \
-  db-devel libnet-devel glib-devel bettercap nmap arpfox dnsmasq \
-  gnupg proxychains-ng openjdk-jre sqlmap termshark openvpn \
-  openconnect aircrack-ng john reaver hxctools hashcat \
-  hashcat-utils python3-devel python3-pip ettercap thc-hydra \
-  kismet rust cargo gobuster wfuzz 2>&1 | awk 'BEGIN {ORS=" "} {if(NR%=500==0) print "+"}'
   mkdir $TMP
 	cd $TMP
 	printf "[-] Downloading Metasploit\n"
@@ -47,5 +50,5 @@ fi
 
 read -n1 -s -r -p "Install Metasploit?: " key
 if [ "$key" = "n" ]; then exit
-elif [ "$key" = "y" ]; then mainmsf
+elif [ "$key" = "y" ]; then dvdeps
 fi
