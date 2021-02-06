@@ -137,6 +137,15 @@ msf() {
 	printf "\n[!] Run 'msfdb init' as a non-root user\n"
 }
 
+main() {
+	msf
+	nikto
+	dirble
+	exploitdb
+	cewl
+	wordlists
+}
+
 if [[ $EUID -ne 0 ]]; then
 	printf "\n"
 	printf "\n[!] This script must be ran as root"
@@ -157,12 +166,3 @@ read -n1 -s -r -p "Install Metasploit?: " key
 if [ "$key" = "n" ]; then exit
 elif [ "$key" = "y" ]; then main
 fi
-
-main() {
-	msf
-	nikto
-	dirble
-	exploitdb
-	cewl
-	wordlists
-}
