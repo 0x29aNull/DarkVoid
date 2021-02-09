@@ -57,7 +57,7 @@ operating system.
   libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel db-devel nmap \
   git curl wget
 
-  Before clone the Metasploit repository and get to the main event, we should
+  Before we clone the Metasploit repository and get to the main event, we should
   import the GPG keys for the ruby RVM program we will be using. You can See
   above that GnuPG is one of the applications installed. Using a GPG key is
   important as it ensures that the program you're downloading is authentic.
