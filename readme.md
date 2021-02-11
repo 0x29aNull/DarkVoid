@@ -12,6 +12,7 @@ box, a media streaming pirate server, an OSINT information gathering system,
 and much more. If you have any questions please reach out to me [0x29a@null.net](0x29a@null.net).
 
 # [Episode 1](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode1.md) - Metasploit Installation
-# [Episode 2](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode2.md) - Fuzzers and ExploitDB (coming soon)
+# [Episode 2](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode2.md) - Fuzzers and ExploitDB
+# [Episode 3] - Jellyfin Media Server and Pirate box
 
 Copyright 2021 [0x29aNull](0x29a@null.net)
