@@ -11,6 +11,7 @@ my favorite Linux distribution in to anything you want. A dedicated hacking
 box, a media streaming pirate server, an OSINT information gathering system,
 and much more. If you have any questions please reach out to me [0x29a@null.net](0x29a@null.net).
 
+[<img src="https://github.com/0x29aNull/DarkVoid/blob/main/coffee.png?raw=true">](https://www.buymeacoffee.com/0x29a)
 ![https://github.com/0x29aNull/DarkVoid/blob/main/coffee.png?raw=true](https://www.buymeacoffee.com/0x29a) \
 Any Donations will be used to purchase a domain and host more content.
 
