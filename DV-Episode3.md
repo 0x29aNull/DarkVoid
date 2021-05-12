@@ -123,7 +123,7 @@ Scroll to the bottom and add the following lines...
 ````static domain_name_servers=192.168.1.1 8.8.8.8````
 
 You can use wlan0 or any other network interface, as well as change your IP to any free IP on your network.
-You can find free IPs by using tools such as nmap, ipscan, or fing on your smartphone. To add the port forward
+You can find available IPs by using tools such as nmap, ipscan, or fing on your smartphone. To add the port forward
 we will need to access your routers configuration. This will vary widely depending on what your device is.
 I use a Linksys WRT1900AC with DD-WRT installed. In most routers to add a port forward you need to open a
 web browser and go to http://192.168.1.1 (or whatever your router's IP is) and find your port
@@ -144,7 +144,7 @@ downloading, and stream media. However, Unless you've setup your VPN or firewall
 
 Since we're here.. I run my box as a headless box so I also added an SSH port forward as well in case i need to do any
 additional configuration or maintenance. Setting up SSH on Void is as easy as running ````ln -s /etc/sv/sshd/ /var/service/````
-, Although I highly recommend changing the default port from 22 to something higher, So you arent attacked.
+, Although I highly recommend changing the default port from 22 to a higher port, so you aren't attacked.
 
 
 
