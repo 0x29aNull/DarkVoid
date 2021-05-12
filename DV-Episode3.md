@@ -30,7 +30,7 @@ Upon first login to your new Void install you have to install some dependencies.
 
 The packages wget and curl are both awesome little applications. They are very handy
 in downloading packages or pages directly from URLs. Mono is a Micro$oft .NET
-implementation for Linux, This is the program that will allow 2 of our applications
+implementation for Linux, this is the program that will allow 2 of our applications
 to run. Deluge is a torrent daemon and deluge-web is its webUI front-end. OpenVPN
 is what we will use for our VPN client (privacy first!) and UFW is our firewall.
 
@@ -225,14 +225,14 @@ running services with a browser on a separate computer or phone and configure th
 Xwindows system and set them up locally, I prefer to keep my install small and lean. If you decide to go the Xwindows
 route, just skip the part of obtaining your IP and put ````http://127.0.0.1:PORT/```` in your browser's address bar.
 You can also skip curl'ing your IP address if you are accessing the services from within your home network since we
-told to firewall to allow all traffic from anything connected to 192.168.1.x. We need to find out what our outside
+told the firewall to allow all traffic from anything connected to 192.168.1.x. We need to find out what our outside
 IP address is so that we can connect to it. we can do this with a simple curl command... ````curl ifconfig.me````
 
 #### Deluge
 
 First service we're going to configure is deluge. This is pretty easy, Just login with the password ````deluge````
 and then change the password. It should prompt you automatically to change it and bring up the configuration menu
-on first login. Click on the 'Preferences' button and You can set your downloads location and any other configurations
+on first login. Click on the 'Preferences' button and you can set your downloads location and any other configurations
 you may need. I'm not going to go in to details on this as it's not the most important part and there are numerous
 tutorials online on configuring deluge.
 
@@ -249,9 +249,9 @@ format and metadata, This tutorial is on how to set it up and get it working.
 
 #### JellyFin
 
-In your browser navigate to ````http://IP:8096/````. You will be greeted with a Welcome page, Select your
+In your browser navigate to ````http://IP:8096/````. You will be greeted with a Welcome page, select your
 language and press "Next". Setup a username and password in the next field. This will be what we will use
-to manage the JellyFin server with, You can add individual user accounts later. On the next page we're given
+to manage the JellyFin server with, you can add individual user accounts later. On the next page we're given
 the option to setup our media locations. If you have followed this tutorial exactly as I had set things up
 then /media will be your main folder. I create subfolders ````/media/movies```` and ````/media/shows````.
 After we've selected our appropriate media folders, Go on to the next, Select your language again and press
@@ -261,12 +261,12 @@ Since we've already gone over this go ahead and leave it unchecked. Click next t
 
 ### Finishing notes
 
-For the most part, We're done! Sure, There are some configuration settings you'll want to tweak and adjust
+For the most part, we're done! Sure, There are some configuration settings you'll want to tweak and adjust
 but for the most part you have a fully working Void Pirate box. You can install the JellyFin application on
 your phone, tablet, laptop, even on an xbox. I've done this whole process on other operating systems (Ubuntu,
 Debian, Windows) and Void Linux makes it truly painless, not to mention very fast.
 
-At the start I had mentioned BTRFS, Which I will make a tutorial on in a future episode. There are other guides
+At the start I had mentioned BTRFS, which I will make a tutorial on in a future episode. There are other guides
 online but none that were very easy to follow along or that explained the process in any depth. BTRFS is important
 in situations like this as it provides snapshots and for filesystems that span across multiple drives. Until I
 write that tutorial on BTRFS or if you use ext4 I suggest getting 2 large drives (a minimum of 1TB each), Formatting
@@ -274,4 +274,4 @@ them in your filesystem type and mounting them as your ````/media/movies```` and
 
 I hope this has been informative on how flexible, light, and powerful Void Linux is.
 
-Copyright 2021 [0x29aNull](0x29a@null.net)
+Copyright 2021 [0x29aNull](mailto:0x29a@null.net)
