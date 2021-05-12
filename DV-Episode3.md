@@ -19,7 +19,7 @@ misuse of this information or of any piracy that may occur due to users installi
 this software.
 
 As always, I suggest that you start off with a fresh bare bones install of
-Void Linux. Installing on a BTRFS filesystem would best as it allows for snapshots,
+Void Linux. Installing on a BTRFS filesystem would be best as it allows for snapshots,
 backups, and larger hard drives. I will publish a tutorial on installing Void on
 BTRFS in the future. If you plan on storing more than a few movies I would suggest
 having multiple multi-terabyte hard drives.
