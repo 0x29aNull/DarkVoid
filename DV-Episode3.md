@@ -277,4 +277,4 @@ them in your filesystem type and mounting them as your ````/media/movies```` and
 
 I hope this has been informative on how flexible, light, and powerful Void Linux is.
 
-Copyright 2021 [0x29aNull](mailto:0x29a@null.net)
+Copyright © 2021 [0x29aNull](mailto:0x29a@null.net)
