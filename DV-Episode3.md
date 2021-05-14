@@ -1,4 +1,7 @@
-# Void Pirate Box
+# DarkVoid: A Weekly Blog on Void Linux for Nefarious uses.
+## Episode 3 - Void Pirate Box
+![](https://github.com/0x29aNull/DarkVoid/blob/main/DVLogo.png?raw=true)
+
 ## Sail the 7 Sea of Movies
 
 The current state of digital entertainment is a mess.
