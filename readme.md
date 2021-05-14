@@ -17,5 +17,6 @@ Any Donations will be used to purchase a domain and host more content.
 # [Episode 1](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode1.md) - Metasploit Installation
 # [Episode 2](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode2.md) - Fuzzers and ExploitDB
 # [Episode 3](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode3.md) - Jellyfin Media Server & Pirate Box
+# [Episode 4] - BurpSuite, Web Applications & Databases
 
 Copyright 2021 [0x29aNull](0x29a@null.net)
