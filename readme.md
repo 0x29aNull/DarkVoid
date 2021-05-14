@@ -1,7 +1,7 @@
 # DarkVoid: A weekly blog on Void Linux for nefarious uses.
 ![](https://github.com/0x29aNull/DarkVoid/blob/main/DVLogo.png?raw=true)
 ## About DarkVoid
-Void Linux is a 'General Purpose' GNU/Linux Operating System. It uses runit
+[Void Linux](https://www.voidlinux.org) is a 'General Purpose' GNU/Linux Operating System. It uses runit
 as an init system and muslc (glibc versions are available), which makes for
 a lightning fast system. After the initial install you're left with a bare
 bones Linux distribution which is very pliable. I believe that fragmenting
@@ -19,4 +19,4 @@ Any Donations will be used to purchase a domain and host more content.
 # [Episode 3](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode3.md) - Jellyfin Media Server & Pirate Box
 # Episode 4 - BurpSuite, Web Applications & Databases
 
-Copyright 2021 [0x29aNull](0x29a@null.net)
+Copyright © 2021 [0x29aNull](mailto:0x29a@null.net)
