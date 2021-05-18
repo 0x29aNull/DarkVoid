@@ -1,4 +1,4 @@
-# DarkVoid: A Weekly Blod on Void Linux for Nefarious uses.
+# DarkVoid: A Weekly Blog on Void Linux for Nefarious uses.
 
 ## Episode 4 - Burpsuite, Web Applications & Databases
 
