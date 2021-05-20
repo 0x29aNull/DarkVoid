@@ -18,6 +18,7 @@ Any Donations will be used to purchase a domain and host more content.
 # [Episode 2](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode2.md) - Fuzzers and ExploitDB
 # [Episode 3](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode3.md) - Jellyfin Media Server & Pirate Box
 # [Episode 4](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode4.md) - BurpSuite, Web Applications & Databases
-# Episode 5 - Ricing/Customizing the look of Void Linux
+# [Episode 5](https://github.com/0x29aNull/DarkVoid/blob/main/DV-Episode5.md) - Ricing/Customizing the look of Void Linux
+# Episode 6 - WiFi Hacking, Cracking, and Attacking
 
 Copyright © 2021 [0x29aNull](mailto:0x29a@null.net)
