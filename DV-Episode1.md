@@ -52,7 +52,7 @@ operating system.
   The next set of packages are specifically needed for Metasploit framework
   to run. You can install all of these packages by running the following
 
-  ``` xbps-install -Syu ruby-devel ruby-multi_xml zlib-devel libpqxx-devel gnupg postgresql-libs-devel libpcap-devel sqlite-devel apr apr-devel apr-util libuuid-devel readline libsvn libressl-devel libxslt-devel libyaml-devel libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel db-devel nmap git curl wget ```
+  ``` xbps-install -Syu ruby-devel ruby-multi_xml zlib-devel libpqxx-devel gnupg postgresql-libs-devel libpcap-devel sqlite-devel apr apr-devel apr-util libuuid-devel readline libsvn openssl-devel libxslt-devel libyaml-devel libffi-devel ncurses-devel readline-devel gdm-devel gdbm-devel db-devel nmap git curl wget ```
 
   Before we clone the Metasploit repository and get to the main event, we should
   import the GPG keys for the ruby RVM program we will be using. You can See
