@@ -8,7 +8,7 @@ The current state of digital entertainment is a mess.
 If you purchase the most basic service from each platform you would
 be spending more than $250 per month. That includes advertisements
 and does not include all content. Streaming services were originally
-started to have tons of content in one location with a reasonable price.
+started to have tons of content in one location for a reasonable price.
 
 What if i were to tell you there's a better way? A way to get all of your
 favorite shows, movies, and music streaming on all of your devices for free?
