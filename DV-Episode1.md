@@ -14,7 +14,7 @@ Void being a blank slate, We can shape it into anything we like. Today, We are
 going to do just that: Weaponize Void Linux.
 
 The Void Linux repositories have some tools, but not everything a modern
-cyber criminal would need. The main being Metasploit. This guide will walk
+cyber security user would need. The main being Metasploit. This guide will walk
 you through installing and configuring Void Linux as a specialized pentest
 operating system.
 
